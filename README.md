@@ -4,7 +4,7 @@
 
 ## A final project for 6.412 Computational Cognitive Science
 
-This repository contains all code written for our research project. Here's a breakdown of all the files that are included:
+This repository contains all code written for our research project. Please find our final paper [here](https://drive.google.com/file/d/1NayaVf9M8ucLFXL4XjflfkiM8oUCV8h-/view?usp=share_link). Here's a breakdown of all the files that are included:
 
 ### Data
 
