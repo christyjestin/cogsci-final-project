@@ -1,0 +1,21 @@
+# Social Misunderstanding as a Probability Problem (Background)
+- Our project was built on the idea that a social misunderstandings are cases of **incorrectly deducing intent given some action**
+- For example, if someone laughs, then you could say there's a 90% chance that it's about something funny, a 5% chance that they're mocking someone, and a 5% chance that they're being tickled
+- The primary takeaway of the cognitive science class is that human thinking is approximately Bayesian: in this context, this means that our perceived probability for an intent given an action (**posterior**) is based on the probability of that intent happening in the first place (**prior**) and the chances that the action follows the intent (**likelihood**)
+- The idea is that we have some fundamental belief about the chances of having an intent in general (the prior), but this belief gets updated based on some data i.e. observed actions (the posterior): the prior and posterior distributions are named this way because they are before and after the data, respectively
+- The likelihood just represents how likely someone is to do something given they have a certain intent: for example, you could say that there's a 20% chance that someone's hungry in general (the prior), but a low chance that they'd laugh if they're hungry (the likelihood): **in the Bayesian framework, the posterior probability is proportional to the prior probability times the likelihood**, and this makes sense in this case because you'd still think that there's a very low chance someone's hungry given that they're laughing even though being hungry is fairly common
+
+# Our Work
+- In general, humans are great at approximating the Bayesian framework, but social misunderstandings are quite common: we wanted to examine why this is the case by studying posteriors (intent given action) and likelihood functions (action given intent) in the romantic messaging context &mdash; **here the action is sending a certain message**
+- We selected 10 messages from your submissions and used them as actions with **relationship, friendship, or hookup as possible intents**
+- Then we collected posterior data from half the respondents by asking them to infer intent given a message and likelihood data from the other half by asking them to select a message given that they have a certain intent
+- We did this by asking them to rate responses such that you're twice as likely to send a 4-rated message as you are to send a 2-rated message and then turning these ratings into probabilities down the line: for example, if you rated messages 1, 2, and 3 as 4, 6, and 2, respectively with 0s for all other messages,  then we'd say the distribution is $\frac{4}{12}=\frac{1}{3}$, $\frac{6}{12}=\frac{1}{2}$, and $\frac{2}{12}=\frac{1}{6}$ followed by zeroes for the other messages (note that we divide by $4+2+6=12$ so that the probabilities sum to 1)
+
+# Our Motivation
+- Are there **universal posterior distributions**: if there is a universal posterior, then social misunderstandings can't simply be explained by the problem of inferring intent given an action since we all do this the same way; we believed that the **confounding factor here would be context** i.e. we deduce intent based on both what they did and context like who they are and what our existing relationship with them is: this context &mdash; our perception of the other person &mdash; may not be the same on both sides, which would lead to misunderstandings
+- If there isn't a universal posterior, is there still a **shared posterior within certain demographics**: based on a conversation with some friends while we were setting up the project, Charles and I believed that gender and to a much lesser extent major might be dividing lines for the posterior
+- Is there a **universal likelihood function**: we didn't expect this since a likelihood function represents what you'd do in a situation and that's based on your personality, style, world view etc.
+- Is human thinking about social situations still Bayesian i.e. is there a way to fit the posterior and likelihood data into a Bayesian framework with reasonable prior distributions: it would be surprising and noteworthy if this weren't the case because of the numerous and varied examples we've seen in class of human thinking being approximately Bayesian
+
+# Our Results
+- 
