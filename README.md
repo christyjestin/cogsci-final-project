@@ -1,6 +1,6 @@
 # What Do You Mean: A Bayesian Analysis of Social Misunderstanding
 
-## by Christy Jestin and Charles Ma
+#### by Christy Jestin and Charles Ma
 
 ## A final project for 6.412 Computational Cognitive Science
 
